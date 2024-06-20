@@ -1,7 +1,14 @@
+/* General reset and settings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Mulish", "open sans";
+}
+
+html {
+  color: #fff;
   font-size: 62.5%;
 }
 
@@ -13,4 +20,56 @@
     #210b25 74%,
     #050005 100%
   );
+}
+
+/*=======================*/
+/* =======HEADER======= */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4.2rem 12.9rem;
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-family: "Kanit", "open sans";
+  color: #00c9bd;
+}
+
+/*=======================*/
+/* =======NAVIGATION======= */
+.nav {
+}
+
+.nav-ul {
+  list-style: none;
+  display: flex;
+  gap: 6.4rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  transition: all 0.2s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #c9c9c9;
+}
+
+.colored:link,
+.colored:visited {
+  color: #00c9bd;
+  transition: all 0.2s;
+}
+
+.colored:hover,
+.colored:active {
+  color: #0ba59b;
 }
