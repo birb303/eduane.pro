@@ -1,3 +1,19 @@
+:root {
+  --black-100: #261f22;
+  --black-75: #261f22bf;
+  --black-50: #261f2299;
+  --black-25: #261f2240;
+  --black-10: #261f221a;
+  --black-5: #261f220d;
+  --white-100: #ffffff;
+  --white-75: #ffffffbf;
+  --white-50: #ffffff99;
+  --white-25: #ffffff40;
+  --white-10: #ffffff1a;
+  --white-5: #ffffff0d;
+  --primary: #00c9bd;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +30,7 @@
 }
 
 html {
-  color: #fff;
+  color: var(--white-100);
   font-size: 62.5%;
 }
 
@@ -46,7 +62,7 @@ body {
 
 .logo {
   font-family: "Kanit", "open sans";
-  color: #00c9bd;
+  color: var(--primary);
   cursor: default;
   font-size: clamp(1.6rem, 0.2857rem + 2.2857vw, 3.2rem);
 }
@@ -74,12 +90,12 @@ body {
 
 .nav-link:hover,
 .nav-link:active {
-  color: #c9c9c9;
+  color: var(--white-75);
 }
 
 .colored:link,
 .colored:visited {
-  color: #00c9bd;
+  color: var(--primary);
   transition: all 0.2s;
 }
 
@@ -131,22 +147,22 @@ body {
 .btn-text {
   font-family: "Kanit", "open sans";
   font-size: 2.3rem;
-  color: #fff;
+  color: var(--white-100);
   margin-bottom: 1.6rem;
   transition: color 0.3s ease;
 }
 
 .btn-svg path {
-  fill: white;
+  fill: var(--white-100);
   transition: fill 0.3s ease;
 }
 
 .btn:hover .btn-text {
-  color: #c9c9c9;
+  color: var(--white-75);
 }
 
 .btn:hover .btn-svg path {
-  fill: #0ba59b;
+  fill: var(--primary);
 }
 
 .btn:link,
@@ -211,7 +227,7 @@ body {
 
 .profile-text p {
   font-size: 1.6rem;
-  opacity: 75%;
+  color: var(--white-75);
   line-height: 2.5rem;
 }
 
