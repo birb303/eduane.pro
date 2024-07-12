@@ -26,7 +26,7 @@
   max-width: 144rem;
   margin-inline: auto;
   position: relative; /* For SVG */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 html {
@@ -237,6 +237,42 @@ body {
   font-weight: bold;
 }
 
+/* WORK WORK WORK WORK WORK WORK */
+.works-section {
+  /* border: 1px solid #00c9bd; */
+  /* min-height: 100vh; */
+}
+
+.works-header {
+  display: flex;
+  justify-content: center;
+  font-size: 5.6rem;
+  font-family: "kanit", "open sans";
+  font-size: clamp(3.6rem, 2.25rem + 1.8519vw, 5.6rem);
+}
+/* SAMPLE WORKS */
+.works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10.6rem 0;
+}
+
+.videos-frame {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12.2rem;
+  justify-content: center;
+}
+
+.video {
+}
+
+.video-1 {
+  border-radius: 1.5rem;
+}
+
 /* 1380px =====================*/
 @media (width <= 1380px) {
   /* HOME SECTION ==========================*/
@@ -290,6 +326,15 @@ body {
   .profile-img {
     max-width: 31.3rem;
     height: auto;
+  }
+
+  /* WORK WORK WORK WORK WORK */
+
+  .works {
+    margin: 4.6rem 0;
+  }
+  .videos-frame {
+    gap: 6.2rem;
   }
 }
 
