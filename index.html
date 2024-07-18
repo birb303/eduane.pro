@@ -15,8 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
-    <!-- SWIPERJS-->
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- TITLE -->
     <title>eduane.pro</title>
   </head>
@@ -36,7 +36,11 @@
           </nav>
         </header>
         <div class="hero-section">
-          <div class="heading-container">
+          <div
+            class="heading-container"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          >
             <h1 class="heading">Grow Your Brand</h1>
             <h1 class="heading">With Better</h1>
             <h1 class="heading">Content</h1>
@@ -109,52 +113,12 @@
       </section>
       <!-- ABOUT SECTION -->
       <section class="about" id="About">
-        <div class="profile-container">
+        <div class="profile-container" data-aos="fade-up">
           <img
             class="profile-img"
             src="src/img/trrye.png"
             alt="Profile Image"
           />
-          <svg
-            class="eclipse"
-            viewBox="0 0 950 1006"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g filter="url(#filter0_f_167_346)">
-              <circle
-                cx="447"
-                cy="503"
-                r="203"
-                fill="#00C9BD"
-                fill-opacity="0.93"
-              />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_167_346"
-                x="-56"
-                y="0"
-                width="1006"
-                height="1006"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="150"
-                  result="effect1_foregroundBlur_167_346"
-                />
-              </filter>
-            </defs>
-          </svg>
-
           <div class="profile-text">
             <h1>Hi! I am Torraye</h1>
             <p>
@@ -173,7 +137,7 @@
         <h1 class="works-header">Work Samples</h1>
         <div class="works">
           <div class="videos-frame">
-            <div class="video">
+            <div class="video" data-aos="fade-up" data-aos-duration="1000">
               <iframe
                 class="video-1"
                 src="https://www.instagram.com/reel/C88zsiHyb-0/embed"
@@ -184,7 +148,7 @@
                 allowtransparency="true"
               ></iframe>
             </div>
-            <div class="video">
+            <div class="video" data-aos="fade-up" data-aos-duration="1300">
               <iframe
                 class="video-1"
                 src="https://www.instagram.com/reel/C1ZUaCQJYLh/embed"
@@ -195,7 +159,7 @@
                 allowtransparency="true"
               ></iframe>
             </div>
-            <div class="video">
+            <div class="video" data-aos="fade-up" data-aos-duration="1600">
               <iframe
                 class="video-1"
                 src="https://www.instagram.com/reel/C1r1EshJkrO/embed"
@@ -215,7 +179,11 @@
         <div class="system-container">
           <div class="holder left-holder">
             <div class="circle"></div>
-            <div class="text-box left-textbox">
+            <div
+              class="text-box left-textbox"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img src="src/img/Research Img.png" alt="Research" />
               <div>
                 <h1 class="system-num">01</h1>
@@ -229,7 +197,11 @@
           </div>
           <div class="holder right-holder">
             <div class="circle"></div>
-            <div class="text-box right-textbox">
+            <div
+              class="text-box right-textbox"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img src="src/img/Strategize Img.png" alt="Strategize" />
               <div>
                 <h1 class="system-num">02</h1>
@@ -243,7 +215,11 @@
           </div>
           <div class="holder left-holder">
             <div class="circle"></div>
-            <div class="text-box left-textbox">
+            <div
+              class="text-box left-textbox"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img src="src/img/Produce Img.png" alt="Produce" />
               <div>
                 <h1 class="system-num">03</h1>
@@ -257,7 +233,11 @@
           </div>
           <div class="holder right-holder">
             <div class="circle"></div>
-            <div class="text-box right-textbox">
+            <div
+              class="text-box right-textbox"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
               <img src="src/img/Post Img.png" alt="Post" />
               <div>
                 <h1 class="system-num">04</h1>
@@ -273,7 +253,7 @@
       </section>
       <!-- TESTIMONIAL SECTION -->
       <section class="testimonial">
-        <div class="choose-me">
+        <div class="choose-me" data-aos="zoom-in">
           <h1>Why <span>Choose Me?</span></h1>
           <p>
             We stay ahead with the latest technology in editing and are always
@@ -393,10 +373,163 @@
           </div>
         </div>
       </section>
+      <!-- CONTACT SECTION -->
+      <section class="contact" id="Contact" data-aos="fade-right">
+        <div class="contact-header">
+          <h1>Contact me and let’s <span>work together</span></h1>
+          <p>
+            Your vision, our design expertise. Together, we can create something
+            unique.
+          </p>
+        </div>
+        <div class="contact-info">
+          <div class="information address">
+            <img src="src/img/location.png" alt="address" />
+            <div class="information-text">
+              <h1>Address</h1>
+              <p>Quezon City, Philippines</p>
+            </div>
+          </div>
+          <div class="information email">
+            <img src="src/img/email.png" alt="address" />
+            <div class="information-text">
+              <h1>Email</h1>
+              <p>duanelunnay@gmail.com</p>
+            </div>
+          </div>
+          <div class="information instagram">
+            <img src="src/img/instagram.png" alt="address" />
+            <div class="information-text">
+              <h1>Instagram</h1>
+              <p>eduane.pro</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <p class="designer">Design by Jairo Garcia</p>
+        <p>&copy;2024 | ALL RIGHTS RESERVED | eduane.pro</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/torraye.bermudez" target="_blank">
+            <svg
+              class="accounts"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M14.875 1.75H12.25C11.0897 1.75 9.97684 2.21093 9.15644 3.03141C8.33593 3.85188 7.875 4.96468 7.875 6.125V8.75H5.25V12.25H7.875V19.25H11.375V12.25H14L14.875 8.75H11.375V6.125C11.375 5.89293 11.4672 5.67038 11.6313 5.50628C11.7953 5.34219 12.0179 5.25 12.25 5.25H14.875V1.75Z"
+                stroke="white"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/eduane.pro" target="_blank">
+            <svg
+              class="accounts"
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9.49995 13.2777C11.5863 13.2777 13.2777 11.5863 13.2777 9.49995C13.2777 7.41354 11.5863 5.72217 9.49995 5.72217C7.41354 5.72217 5.72217 7.41354 5.72217 9.49995C5.72217 11.5863 7.41354 13.2777 9.49995 13.2777Z"
+                stroke="white"
+                stroke-width="1.95833"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M1 13.2778V5.72222C1 3.11421 3.11421 1 5.72222 1H13.2778C15.8858 1 18 3.11421 18 5.72222V13.2778C18 15.8858 15.8858 18 13.2778 18H5.72222C3.11421 18 1 15.8858 1 13.2778Z"
+                stroke="white"
+                stroke-width="1.95833"
+              />
+              <path
+                d="M14.6943 4.3151L14.7041 4.3042"
+                stroke="white"
+                stroke-width="1.95833"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <a href="https://github.com/birb303" target="_blank">
+            <svg
+              class="accounts gh"
+              width="21"
+              height="21"
+              viewBox="0 0 21 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_388_24)">
+                <path
+                  d="M10.5 0.875004C7.97428 0.849339 5.54171 1.82754 3.73689 3.59461C1.93208 5.36169 0.902703 7.77306 0.875 10.2988C0.884732 12.2948 1.52683 14.2364 2.70905 15.8446C3.89128 17.4529 5.55282 18.6451 7.455 19.25C7.93625 19.3375 8.11125 19.0488 8.11125 18.795C8.11125 18.5413 8.11125 17.9813 8.11125 17.1938C5.43375 17.7625 4.865 15.9338 4.865 15.9338C4.68676 15.3597 4.30783 14.8689 3.7975 14.5513C2.9225 13.9738 3.8675 13.9825 3.8675 13.9825C4.16995 14.0229 4.45931 14.1313 4.7139 14.2995C4.96848 14.4677 5.18168 14.6914 5.3375 14.9538C5.60904 15.4246 6.05459 15.77 6.57826 15.9157C7.10193 16.0613 7.66184 15.9955 8.1375 15.7325C8.18642 15.2533 8.40341 14.807 8.75 14.4725C6.615 14.2363 4.375 13.4313 4.375 9.8175C4.35591 8.87485 4.70421 7.96173 5.34625 7.27125C5.05385 6.46194 5.08838 5.57053 5.4425 4.78625C5.4425 4.78625 6.25625 4.5325 8.0675 5.74875C9.64416 5.32861 11.3033 5.32861 12.88 5.74875C14.7175 4.5325 15.505 4.78625 15.505 4.78625C15.8591 5.57053 15.8937 6.46194 15.6013 7.27125C16.2582 7.94907 16.6254 8.85606 16.625 9.8C16.625 13.4225 14.3675 14.2188 12.25 14.455C12.4819 14.6801 12.661 14.9538 12.7744 15.2564C12.8879 15.559 12.9329 15.8829 12.9063 16.205V18.7863C12.9063 18.7863 13.0813 19.3375 13.5625 19.2413C15.4593 18.6326 17.1152 17.4401 18.2938 15.8341C19.4724 14.2281 20.1133 12.2908 20.125 10.2988C20.0973 7.77306 19.0679 5.36169 17.2631 3.59461C15.4583 1.82754 13.0257 0.849339 10.5 0.875004Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_388_24">
+                  <rect width="21" height="21" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+      </footer>
+      <svg
+        class="eclipse"
+        viewBox="0 0 950 1006"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g filter="url(#filter0_f_167_346)">
+          <circle
+            cx="447"
+            cy="503"
+            r="203"
+            fill="#00C9BD"
+            fill-opacity="0.93"
+          />
+        </g>
+        <defs>
+          <filter
+            id="filter0_f_167_346"
+            x="-56"
+            y="0"
+            width="1006"
+            height="1006"
+            filterUnits="userSpaceOnUse"
+            color-interpolation-filters="sRGB"
+          >
+            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feBlend
+              mode="normal"
+              in="SourceGraphic"
+              in2="BackgroundImageFix"
+              result="shape"
+            />
+            <feGaussianBlur
+              stdDeviation="150"
+              result="effect1_foregroundBlur_167_346"
+            />
+          </filter>
+        </defs>
+      </svg>
     </div>
     <!-- SwiperJS -->
     <script src="js/swiper-bundle.min.js"></script>
     <!-- JS -->
     <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
